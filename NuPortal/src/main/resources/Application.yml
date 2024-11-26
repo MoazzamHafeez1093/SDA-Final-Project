@@ -1,0 +1,19 @@
+
+
+server:
+  port: 9192
+
+spring:
+  main:
+    debug: true
+
+  datasource:
+    username: root
+    password: 1234
+    url: jdbc:mysql://127.0.0.1:3306/nuportal
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      format_sql: true
